@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_13_200234) do
+ActiveRecord::Schema.define(version: 2020_09_13_200939) do
 
   create_table "roles", force: :cascade do |t|
     t.string "name", null: false
@@ -30,5 +30,14 @@ ActiveRecord::Schema.define(version: 2020_09_13_200234) do
     t.index ["login"], name: "index_users_on_login", unique: true
   end
 
+  create_table "wallets", force: :cascade do |t|
+    t.integer "credits", default: 0, null: false
+    t.integer "role_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["role_id"], name: "index_wallets_on_role_id"
+  end
+
   add_foreign_key "roles", "users"
+  add_foreign_key "wallets", "roles"
 end
