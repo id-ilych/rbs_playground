@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_13_200939) do
+ActiveRecord::Schema.define(version: 2020_09_13_201644) do
 
   create_table "roles", force: :cascade do |t|
     t.string "name", null: false
@@ -20,6 +20,13 @@ ActiveRecord::Schema.define(version: 2020_09_13_200939) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["name"], name: "index_roles_on_name", unique: true
     t.index ["user_id"], name: "index_roles_on_user_id"
+  end
+
+  create_table "traits", force: :cascade do |t|
+    t.string "name", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["name"], name: "index_traits_on_name", unique: true
   end
 
   create_table "users", force: :cascade do |t|
