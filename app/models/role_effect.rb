@@ -2,7 +2,7 @@ class RoleEffect < ApplicationRecord
   belongs_to :role
   belongs_to :effect
 
-  scope :active, -> { where('counter > 0') }
+  scope :active, -> { where(counter: 1..) }
   scope :for_role, ->(role) { where(role: role) }
 
   def self.increment(role, effect)
