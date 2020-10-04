@@ -1,7 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
+fast_reflexes:
+  name: Fast reflexes
 
-two:
-  name: MyString
+happiness:
+  name: Happiness
+
+coolness:
+  name: Coolness
+
+hacking:
+  name: Hacking

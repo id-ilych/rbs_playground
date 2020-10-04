@@ -1,9 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  role: one
-  gadget: one
+  role: operator
+  gadget: cyber_muscles
 
 two:
-  role: two
-  gadget: two
+  role: operator
+  gadget: sunglasses
+
+three:
+  role: cultist
+  gadget: cyber_muscles

@@ -1,9 +1,9 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  gadget: one
-  trait: one
+  gadget: cyber_muscles
+  trait: fast_reflexes
 
 two:
-  gadget: two
-  trait: two
+  gadget: sunglasses
+  trait: coolness

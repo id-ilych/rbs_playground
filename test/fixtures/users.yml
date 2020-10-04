@@ -1,9 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  login: MyString
-  password: MyString
+operator:
+  login: operator
+  password: rotarepo
 
-two:
-  login: MyString
-  password: MyString
+cultist:
+  login: cultist
+  password: tsitluc
+
+dummy:
+  login: dummy
+  password: ymmud

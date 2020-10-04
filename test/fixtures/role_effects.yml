@@ -1,9 +1,20 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  role: one
-  effect: one
+  role: operator
+  effect: happiness
+  counter: 2
 
 two:
-  role: two
-  effect: two
+  role: cultist
+  effect: stimulator
+  counter: 1
+
+three:
+  role: cultist
+  effect: happiness
+
+four:
+  role: operator
+  effect: stimulator
+  counter: -1
