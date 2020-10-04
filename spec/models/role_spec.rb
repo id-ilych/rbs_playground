@@ -1,10 +1,8 @@
 require 'rails_helper'
 
 describe Role do
-  fixtures :all
-
-  let(:role) { roles(:dummy) }
-  let(:eff) { effects(:radiation) }
+  let(:role) { create(:role) }
+  let(:eff) { create(:effect) }
 
   describe 'active effects' do
     specify do
