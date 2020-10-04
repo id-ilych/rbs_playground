@@ -1,0 +1,18 @@
+one:
+  role: operator
+  effect: happiness
+  counter: 2
+
+two:
+  role: cultist
+  effect: stimulator
+  counter: 1
+
+three:
+  role: cultist
+  effect: happiness
+
+four:
+  role: operator
+  effect: stimulator
+  counter: -1

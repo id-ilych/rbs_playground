@@ -1,0 +1,11 @@
+operator:
+  login: operator
+  password: rotarepo
+
+cultist:
+  login: cultist
+  password: tsitluc
+
+dummy:
+  login: dummy
+  password: ymmud

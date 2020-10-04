@@ -1,0 +1,11 @@
+one:
+  role: operator
+  gadget: cyber_muscles
+
+two:
+  role: operator
+  gadget: sunglasses
+
+three:
+  role: cultist
+  gadget: cyber_muscles

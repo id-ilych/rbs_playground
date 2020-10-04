@@ -1,0 +1,14 @@
+operator:
+  name: Operator
+  description: o_O?
+  user: operator
+
+cultist:
+  name: Cultist
+  description: R'lyeh wgah'nagl fhtagn
+  user: cultist
+
+dummy:
+  name: Dummy
+  description: Just a test dummy
+  user: dummy

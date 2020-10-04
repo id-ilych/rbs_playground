@@ -1,0 +1,7 @@
+operator:
+  credits: 777
+  role: operator
+
+cultist:
+  credits: 666
+  role: cultist
